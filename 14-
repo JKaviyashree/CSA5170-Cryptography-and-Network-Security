@@ -1,4 +1,6 @@
-Define a function to generate a random key of length n
+import random
+
+# Define a function to generate a random key of length n
 def generate_random_key(n):
     return [random.randint(0, 25) for i in range(n)]
 
